@@ -2,6 +2,8 @@ import React from 'react'
 import Sample from './components/sample';
 import CustomsAppbar from './components/CustomsAppbar';
 import Cards from './components/cards';
+import Lists from './components/Lists';
+import Fonawesom from './components/Fonawesom';
 
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
    <CustomsAppbar/>
      <Sample/>
      <Cards/>
+     <Lists/>
+     <Fonawesom/>
     </div>
     </>
   )
